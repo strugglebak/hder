@@ -1,0 +1,32 @@
+body {
+    padding-bottom: 120px;
+}
+
+div > a { text-decoration: underline !important; cursor: pointer;}
+#hlsPopup {
+    width:350px;height:120px;text-align:left;position:relative;
+}
+
+#hlsClearBtn, #hlsSaveBtn {
+    text-decoration: none !important;
+}
+
+#cont_div {
+    max-height: 250px; overflow-y: scroll;
+}
+
+.audio-lbl {
+    font-weight: bold;
+}
+
+.hds {
+    margin: 15px auto;
+}
+
+progress.red { background: red; }
+progress.red::-webkit-progress-bar-value { background-color:red; }
+progress.red::-webkit-progress-value { background-color:red; }
+
+progress.cornflowerblue { background:cornflowerblue ; }
+progress.cornflowerblue::-webkit-progress-bar-value { background-color:cornflowerblue; }
+progress.cornflowerblue::-webkit-progress-value { background-color:cornflowerblue; }

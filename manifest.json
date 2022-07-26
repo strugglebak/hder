@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "js/checkLicense.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "imgs/128.png",
+      "default_popup": "popup.html"
+   },
+   "description": "Downloads Adobe HDS and HLS fragmented videos to computer",
+   "icons": {
+      "128": "imgs/128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiDUo00oXq8YSTc9Q2HgbLlvNlYL78xSZLXVqm8/r160lMzVHtcvMdnFINWxDdvO0jRdpfektF3tE3gtwqSTGU1KeHy1UCrmllAYsKEKpkKCrKlOn9iwEgTpHNiJAakmGIxoHpVfAXOAeC1y2beEkWxWjD5rr/K0j1mbLG54QLkdvwbYF8KoS2QurSzw6QAFSPXum8xwykg9HVdIYNPwS2V8lIrOVWU9EQfORehW69OS61890WujYX2+7D62xFbtvfvTr+0nAMhfhEWK25atz5RKo1p01iWlQEAjvJM3aqZLW1ZcrUEsXdiNMoEreWZLoG7VI/tFg+CvyRziiA1RcwQIDAQAB",
+   "manifest_version": 2,
+   "name": "HDS / HLS Video Downloader",
+   "oauth2": {
+      "client_id": "222520596403-him24p6iv6es3v042egfl91d24skgto2.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/chromewebstore.readonly" ]
+   },
+   "permissions": [ "\u003Call_urls>", "webRequest", "webRequestBlocking", "tabs", "storage", "https://www.googleapis.com/", "identity" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.14",
+   "web_accessible_resources": [ "css/main.css" ]
+}
